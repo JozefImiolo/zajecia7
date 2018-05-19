@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Zajecia/cmake-gtest/src/guarantees.cpp
+cstdio
+-
+vector
+-
+stdexcept
+-
+fstream
+-
+

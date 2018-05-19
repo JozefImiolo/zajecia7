@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Zajecia/cmake-gtest/src/example.hpp
+
+/home/user/Zajecia/cmake-gtest/src/main.cpp
+iostream
+-
+example.hpp
+/home/user/Zajecia/cmake-gtest/src/example.hpp
+rational.hpp
+/home/user/Zajecia/cmake-gtest/src/rational.hpp
+memory
+-
+
+/home/user/Zajecia/cmake-gtest/src/rational.hpp
+iostream
+-
+
